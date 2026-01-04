@@ -20,9 +20,9 @@ btn.addEventListener("click", function () {
     const kilosToPounds = (inputValue * 2.204).toFixed(3);
     const poundsToKilos = (inputValue / 2.204).toFixed(3);
 
-    length.textContent = `${inputValue} meters = ${meterToFeet} | ${inputValue} feet = ${feetToMeter} meters`;
-    volume.textContent = `${inputValue} meters = ${litersToGallons} | ${inputValue} feet = ${gallonsToLiters} meters`;
-    mass.textContent = `${inputValue} meters = ${kilosToPounds} | ${inputValue} feet = ${poundsToKilos} meters`;
+    length.textContent = `${inputValue} meters = ${meterToFeet} feet | ${inputValue} feet = ${feetToMeter} meters`;
+    volume.textContent = `${inputValue} liters = ${litersToGallons} gallons | ${inputValue} gallons = ${gallonsToLiters} liters`;
+    mass.textContent = `${inputValue} kilos = ${kilosToPounds} pounds | ${inputValue} pounds = ${poundsToKilos} kilos`;
   } else {
     const alertMessage = "Please insert the correct number to convert";
     alert(alertMessage);
