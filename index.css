@@ -22,6 +22,7 @@ body {
   letter-spacing: -3%;
   text-align: center;
   margin: 30px 51px;
+  text-shadow: 1px 1px 1px black;
 }
 
 #input {
